@@ -1,5 +1,8 @@
 # scribe
 
+My toy project for creating an interactive tool for ear training, music transcription and music theory. Built with Node.js
+and Vue.
+
 ## Project setup
 ```
 npm install

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scribe"
+version = "0.1.0"
+description = ""
+authors = ["David Sillman <dsillman2000@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+# include static "files" directory
+include = ["files"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
