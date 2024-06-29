@@ -1,13 +1,14 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import ScribeButton from './ScribeButton.vue';
 </script>
 
 <template>
     <div class="scribe-app-button-div" style="width: 50%">
         <RouterLink :to=href>
-            <button class="scribe-app-button">
+            <ScribeButton>
                 {{ app.replace('-', ' ') }}
-            </button>
+            </ScribeButton>
         </RouterLink>
     </div>
 </template>

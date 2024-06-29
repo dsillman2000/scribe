@@ -11,7 +11,10 @@
 export default {
     name: 'AudioPlayer',
     props: {
-        url: String
+        url: {
+            type: String,
+            required: true
+        }
     }
 }
 </script>
